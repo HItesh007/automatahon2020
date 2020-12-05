@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="error">
+<Configuration packages="com.epam.ta.reportportal.log4j.appender" status="error">
     <Properties>
         <Property name="LOG_DIR_PATH">automation-logs</Property>
         <Property name="LOG_FILE_NAME">automation-script-log</Property>
@@ -12,6 +12,11 @@
                 <pattern>${LOG_PATTERN}</pattern>
             </PatternLayout>
         </Console>
+
+        <!-- Following appender is used to add logs from log4j2 to ReportPortal. -->
+        <ReportPortalLog4j2Appender name="ReportPortalAppender">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </ReportPortalLog4j2Appender>
 
         <!-- Following appender will be used to write logs to file -->
         <RollingFile
@@ -34,6 +39,7 @@
         <Logger name="com.hitesh.automatahon" level="debug" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="ReportPortalAppender"/>
         </Logger>
     </Loggers>
 </Configuration>

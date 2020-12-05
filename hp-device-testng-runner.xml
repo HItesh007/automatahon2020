@@ -16,7 +16,7 @@
         <parameter name="app-activity" value="net.metaquotes.metatrader4.ui.MainActivity"/>
         <classes>
             <class name="com.hitesh.automatahon.builder.appium.session.AppiumSessionBuilder"/>
-            <class name="BoilerplateChromeTests"/>
+            <!--<class name="BoilerplateChromeTests"/>-->
         </classes>
     </test>
 </suite>

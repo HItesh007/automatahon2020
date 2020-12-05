@@ -15,7 +15,7 @@
         <parameter name="app-activity" value="com.android.calculator2.Calculator"/>
         <classes>
             <class name="com.hitesh.automatahon.builder.appium.session.AppiumSessionBuilder"/>
-            <class name="BoilerplateCalculatorTests"/>
+            <class name="com.hitesh.automatahon.tests.boilerplate.calc.tests.BoilerplateCalculatorTests"/>
         </classes>
     </test>
 </suite>

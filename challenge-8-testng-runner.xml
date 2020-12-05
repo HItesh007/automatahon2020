@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AutomATAhon - Challenge 8 API Suite" parallel="tests">
+    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+    </listeners>
+    <test name="Challenge 8 - API Tets">
+        <classes>
+            <class name="com.hitesh.automatahon.tests.challenges.eight.CompanyAPITests"/>
+        </classes>
+    </test>
+</suite>

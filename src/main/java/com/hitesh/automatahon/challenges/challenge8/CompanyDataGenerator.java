@@ -1,8 +1,10 @@
 package com.hitesh.automatahon.challenges.challenge8;
 
 import com.hitesh.automatahon.challenges.constants.FileConstants;
-import com.hitesh.automatahon.json.*;
-import com.hitesh.automatahon.utils.FileUtility;
+import com.hitesh.automatahon.json.JSONArray;
+import com.hitesh.automatahon.json.JSONFileWriter;
+import com.hitesh.automatahon.json.JSONObject;
+import com.hitesh.automatahon.json.JSONParser;
 import com.hitesh.automatahon.utils.SystemUtility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +22,7 @@ public class CompanyDataGenerator {
     public static void generateData(int maxDataSize) throws IOException {
         JSONObject dataJsonObject = new JSONObject();
         JSONArray dataArray = new JSONArray();
-        for(int i=0; i < maxDataSize; i++) {
+        for (int i = 0; i < maxDataSize; i++) {
             JSONObject eachRowObject = new JSONObject();
             eachRowObject.put("name", CompanyFaker.getCompanyName());
             eachRowObject.put("tel", CompanyFaker.getCompanyPhone());
