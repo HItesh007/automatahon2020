@@ -31,7 +31,7 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.appium.boilerplate" level="debug" additivity="false">
+        <Logger name="com.hitesh.automatahon" level="debug" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="RollingFile"/>
         </Logger>
