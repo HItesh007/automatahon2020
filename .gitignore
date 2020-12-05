@@ -1,0 +1,20 @@
+/.idea/
+/automation-script-logs/*
+/target/
+/.settings/*
+/test-output/*
+/appium-server-logs/*
+/chrome-drivers/drivers/*
+
+## --- FILES
+*.log
+*.class
+*.zip
+*.png
+.classpath
+.factorypath
+.project
+*.iml
+*.lock
+*.sync
+*.exe
