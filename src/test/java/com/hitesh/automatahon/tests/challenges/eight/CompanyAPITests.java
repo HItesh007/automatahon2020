@@ -18,7 +18,7 @@ public class CompanyAPITests {
     @Test(priority = 0)
     public void createCompanies() throws IOException {
         // Prepare Company Data
-        CompanyDataGenerator.generateData(5);
+        CompanyDataGenerator.generateData(10);
 
         // Get Data
         JSONArray companyDataArray = CompanyDataGenerator.getDataAsJson();
