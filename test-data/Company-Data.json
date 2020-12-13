@@ -1,1 +1,54 @@
-{"CompanyData":[{"name":"Mueller, Christiansen And Dubuque","tel":"1-400-009-6102","email":"darcy.schulist@example.com"},{"name":"Hyatt, Monahan And Zieme","tel":"442-811-1563","email":"del.von@example.com"},{"name":"Stamm-cruickshank","tel":"1-470-374-1011","email":"daryl.jast@example.com"},{"name":"Cassin, Kautzer And Adams","tel":"(402) 010-1567","email":"michale.mueller@example.com"},{"name":"Murazik, Macgyver And Jast","tel":"036-203-9953","email":"kelley.ritchie@example.com"},{"name":"Bartoletti-koepp","tel":"703-864-2141","email":"foster.ortiz@example.com"},{"name":"Hermiston And Sons","tel":"106-752-4647","email":"darrell.borer@example.com"},{"name":"Berge-bergstrom","tel":"1-008-966-9481","email":"lillian.towne@example.com"},{"name":"Jacobson, Schimmel And Dach","tel":"036-633-4052","email":"wayne.marks@example.com"},{"name":"Hegmann-ward","tel":"089.970.8276","email":"tameka.kihn@example.com"}]}
+{
+  "CompanyData": [
+    {
+      "name": "Mueller, Christiansen And Dubuque",
+      "tel": "1-400-009-6102",
+      "email": "darcy.schulist@example.com"
+    },
+    {
+      "name": "Hyatt, Monahan And Zieme",
+      "tel": "442-811-1563",
+      "email": "del.von@example.com"
+    },
+    {
+      "name": "Stamm-cruickshank",
+      "tel": "1-470-374-1011",
+      "email": "daryl.jast@example.com"
+    },
+    {
+      "name": "Cassin, Kautzer And Adams",
+      "tel": "(402) 010-1567",
+      "email": "michale.mueller@example.com"
+    },
+    {
+      "name": "Murazik, Macgyver And Jast",
+      "tel": "036-203-9953",
+      "email": "kelley.ritchie@example.com"
+    },
+    {
+      "name": "Bartoletti-koepp",
+      "tel": "703-864-2141",
+      "email": "foster.ortiz@example.com"
+    },
+    {
+      "name": "Hermiston And Sons",
+      "tel": "106-752-4647",
+      "email": "darrell.borer@example.com"
+    },
+    {
+      "name": "Berge-bergstrom",
+      "tel": "1-008-966-9481",
+      "email": "lillian.towne@example.com"
+    },
+    {
+      "name": "Jacobson, Schimmel And Dach",
+      "tel": "036-633-4052",
+      "email": "wayne.marks@example.com"
+    },
+    {
+      "name": "Hegmann-ward",
+      "tel": "089.970.8276",
+      "email": "tameka.kihn@example.com"
+    }
+  ]
+}
